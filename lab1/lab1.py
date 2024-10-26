@@ -11,8 +11,8 @@ import threading
 
 
 def read_dataset_names():
-    dataset_names = os.listdir("datasets")
-    prefix = "datasets/"
+    dataset_names = os.listdir("../datasets")
+    prefix = "../datasets/"
     datasets = []
     for i in range(30):
         file_name = prefix+dataset_names[i]
